@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Challenge 1",
+    "description": "Fetch all items",
+    "slug": "/challenge-one",
+    "image_url": "https://www.picsum.photos/300/200/?random+1",
+    "icon_url": "/src/assets/icons/vue-icon.svg"
+  }
+]
