@@ -4,9 +4,13 @@ type Items = Array<{
   id: number
   name: string
   description: string
+  price: number
+  image_url: string
+  category: string
+  stock: number
 }>
 
-export function useFetch(url: string) {
+export function getAllItems(url: string) {
   const data = ref<Items>([])
   const error = ref(null)
 
