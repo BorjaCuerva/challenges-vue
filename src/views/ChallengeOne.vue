@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { defineAsyncComponent } from 'vue'
-import { useFetch } from '@/composables/useFetch'
+import { getAllItems } from '@/api/getAllItems'
 const CardItems = defineAsyncComponent(() => import('@/components/CardItems.vue'))
 const url = '../data/items.json'
 
-const { data, error } = useFetch(url)
+const { data, error } = getAllItems(url)
 </script>
 <template>
   <h1 class="title">Catálogo de productos</h1>
