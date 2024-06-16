@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone Samsung Galaxy S21",
+    "description": "El último smartphone de Samsung con pantalla Infinity-O, procesador Exynos 2100, 8GB RAM, 128GB almacenamiento interno, cámara triple atrás.",
+    "price": 999.99,
+    "category": "Electrónica",
+    "stock": 10,
+    "image_url": "https://www.picsum.photos/300/200/?random+1"
+  },
+  {
+    "id": 2,
+    "name": "Laptop Dell XPS 13",
+    "description": "Portátil de alta gama con pantalla OLED, procesador Intel Core i7, 16GB RAM, 512GB SSD, teclado iluminado.",
+    "price": 1499.99,
+    "category": "Computadoras",
+    "stock": 5,
+    "image_url": "https://www.picsum.photos/300/200/?random+2"
+  },
+  {
+    "id": 3,
+    "name": "Tablet Apple iPad Pro",
+    "description": "Tableta premium con pantalla Liquid Retina, chip A12Z Bionic, 6GB RAM, 256GB almacenamiento, Face ID.",
+    "price": 799.99,
+    "category": "Electrónica",
+    "stock": 15,
+    "image_url": "https://www.picsum.photos/300/200/?random+3"
+  },
+  {
+    "id": 4,
+    "name": "Cafetera Nespresso Essenza Mini",
+    "description": "Cafetera compacta con sistema de extracción instantánea, capacidad para 1.8 litros, incluye 20 cápsulas originales.",
+    "price": 199.99,
+    "category": "Electrodomésticos",
+    "stock": 20,
+    "image_url": "https://www.picsum.photos/300/200/?random+4"
+  },
+  {
+    "id": 5,
+    "name": "Zapatillas Nike Air Max 270 React ENG",
+    "description": "Zapatillas de deporte con tecnología Flywire, suela Air Max 270 React para amortiguación, diseño minimalista.",
+    "price": 150.0,
+    "category": "Moda",
+    "stock": 25,
+    "image_url": "https://www.picsum.photos/300/200/?random+5"
+  },
+  {
+    "id": 6,
+    "name": "Consola PlayStation 5",
+    "description": "Consola de juegos de próxima generación con GPU RDNA 2, 16GB GDDR6, SSD de 825GB, compatibilidad con PS5 games.",
+    "price": 499.99,
+    "category": "Videojuegos",
+    "stock": 30,
+    "image_url": "https://www.picsum.photos/300/200/?random+6"
+  },
+  {
+    "id": 7,
+    "name": "Mouse Logitech MX Master 3",
+    "description": "Mouse inalámbrico avanzado con sensor Darkfield, conectividad Bluetooth y USB-C, batería de hasta 70 días.",
+    "price": 79.99,
+    "category": "Oficina",
+    "stock": 35,
+    "image_url": "https://www.picsum.photos/300/200/?random+7"
+  },
+  {
+    "id": 8,
+    "name": "Kit de Cocina Philips HR1862/05",
+    "description": "Kit de cocina completo con 14 piezas, incluyendo cuchillos, tazas, cubiertos, tenedores, servilletas, todo en una caja resistente.",
+    "price": 49.99,
+    "category": "Cocina",
+    "stock": 40,
+    "image_url": "https://www.picsum.photos/300/200/?random+8"
+  }
+]
