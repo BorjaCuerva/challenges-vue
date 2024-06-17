@@ -36,7 +36,7 @@ const { data, error } = getAllUrls(url)
   margin: 1em;
   width: 18em;
   transition: all 0.3s ease;
-  background: -webkit-linear-gradient(315deg, #42d392 60%, #647eff);
+  background: -webkit-linear-gradient(315deg, #42d392 50%, #0d291c);
 
   &:hover {
     transform: scale(1.05);
