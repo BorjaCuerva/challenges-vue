@@ -5,14 +5,35 @@ defineProps({
   price: Number,
   category: String,
   stock: Number,
-  image_url: String
+  image_url: String,
+  url: String
 })
 </script>
 <template>
   <article class="card">
-    <img :src="image_url" alt="" />
-    <h2 class="card__h2">{{ name }}</h2>
-    <p class="card__p">{{ description }}</p>
+    <router-link
+      :to="{
+        name: 'detail',
+        params: {
+          url: url,
+          name: name,
+          description: description,
+          price: price,
+          category: category,
+          stock: stock,
+          image_url: image_url
+        }
+      }"
+    >
+      <img class="card__img" :src="image_url" :alt="name" />
+      <h2 class="card__h2">{{ name }}</h2>
+      <p class="card__p">{{ description }}</p>
+      <div class="card__details">
+        <span class="card__span">Precio: {{ price }}€</span>
+        <span class="card__span">Categoría: {{ category }}</span>
+        <span class="card__span">Stock: {{ stock }}</span>
+      </div>
+    </router-link>
   </article>
 </template>
 
@@ -30,12 +51,39 @@ defineProps({
     transform: scale(1.05);
   }
 
+  &__img {
+    width: 100%;
+    height: 15em;
+    border-radius: 0.25rem;
+  }
+
   &__h2 {
-    margin-top: 0;
+    margin: 1em 0;
+    font-size: 1.3em;
+    color: map-get($map: $colors, $key: c-primary);
   }
 
   &__p {
-    margin-bottom: 0;
+    max-width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__details {
+    @include flex(column, $align_items: flex-start);
+  }
+
+  &__span {
+    margin: 1em 0 0;
+    font-weight: bold;
+
+    &::before {
+      content: '•';
+      font-weight: bold;
+      margin-right: 0.5em;
+      color: map-get($map: $colors, $key: c-primary);
+    }
   }
 }
 </style>
