@@ -8,6 +8,7 @@ type Items = Array<{
   image_url: string
   category: string
   stock: number
+  url: string
 }>
 
 export function getAllItems(url: string) {

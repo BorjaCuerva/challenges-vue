@@ -5,6 +5,8 @@ type Urls = Array<{
   name: string
   description: string
   slug: string
+  image_url: string
+  icon_url: string
 }>
 
 export function getAllUrls(url: string) {
