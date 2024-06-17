@@ -6,7 +6,8 @@
     "price": 999.99,
     "category": "Electrónica",
     "stock": 10,
-    "image_url": "https://www.picsum.photos/300/200/?random+1"
+    "image_url": "https://www.picsum.photos/300/200/?random+1",
+    "url": "smartphone-samsung-galaxy-s21"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "price": 1499.99,
     "category": "Computadoras",
     "stock": 5,
-    "image_url": "https://www.picsum.photos/300/200/?random+2"
+    "image_url": "https://www.picsum.photos/300/200/?random+2",
+    "url": "laptop-dell-xps-13"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "price": 799.99,
     "category": "Electrónica",
     "stock": 15,
-    "image_url": "https://www.picsum.photos/300/200/?random+3"
+    "image_url": "https://www.picsum.photos/300/200/?random+3",
+    "url": "tablet-apple-ipad-pro"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "price": 199.99,
     "category": "Electrodomésticos",
     "stock": 20,
-    "image_url": "https://www.picsum.photos/300/200/?random+4"
+    "image_url": "https://www.picsum.photos/300/200/?random+4",
+    "url": "cafetera-nespresso-essenza-mini"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "price": 150.0,
     "category": "Moda",
     "stock": 25,
-    "image_url": "https://www.picsum.photos/300/200/?random+5"
+    "image_url": "https://www.picsum.photos/300/200/?random+5",
+    "url": "zapatillas-nike-air-max-270-react-eng"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "price": 499.99,
     "category": "Videojuegos",
     "stock": 30,
-    "image_url": "https://www.picsum.photos/300/200/?random+6"
+    "image_url": "https://www.picsum.photos/300/200/?random+6",
+    "url": "consola-playstation-5"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "price": 79.99,
     "category": "Oficina",
     "stock": 35,
-    "image_url": "https://www.picsum.photos/300/200/?random+7"
+    "image_url": "https://www.picsum.photos/300/200/?random+7",
+    "url": "mouse-logitech-mx-master-3"
   },
   {
     "id": 8,
@@ -69,6 +76,7 @@
     "price": 49.99,
     "category": "Cocina",
     "stock": 40,
-    "image_url": "https://www.picsum.photos/300/200/?random+8"
+    "image_url": "https://www.picsum.photos/300/200/?random+8",
+    "url": "kit-de-cocina-philips-hr1862-05"
   }
 ]
