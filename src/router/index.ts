@@ -19,7 +19,7 @@ const router = createRouter({
       component: ChallengeOne
     },
     {
-      path: '/challenge-one/:url/:name/:price/:description/:image_url/:category/:stock',
+      path: '/challenge-one/:url',
       name: 'detail',
       component: DetailProduct
     }

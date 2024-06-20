@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-type Items = Array<{
+export type Items = Array<{
   id: number
   name: string
   description: string
